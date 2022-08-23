@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'Abaddon';
+    src: url('/assets/fonts/ofont.ru_Abaddon.ttf');
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url('assets/img/bg.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color:rgb(247, 247, 236);
+    font-family: 'Abaddon';
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.level {
+    display: block;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.choose:hover {
+    display: block;
+    color:brown
+}
+
+.ancuents {
+    display: flex;
+    gap: 15px;
+}
+
+.an-card {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 260px;
+    width: 200px;
+}
+
+.first {
+    background-image: url('assets/Ancients/Azathoth.png');
+}
+
+.second {
+    background-image: url('assets/Ancients/Cthulthu.png');
+}
+
+.third {
+    background-image: url('assets/Ancients/IogSothoth.png');
+}
+
+.forth {
+    background-image: url('assets/Ancients/ShubNiggurath.png');
+}
