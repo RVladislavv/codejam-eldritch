@@ -13,20 +13,37 @@ body {
     font-family: 'Abaddon';
 }
 
+
 h1 {
     font-size: 60px;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 40px;
+    text-decoration: underline;
 }
 
 .level {
     display: block;
     font-size: 50px;
     cursor: pointer;
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
+.choose {
+    list-style-type: none;
+    cursor: pointer;
+}
+/* 
 .choose:hover {
     display: block;
     color:brown
-}
+} */
 
 .ancuents {
     display: flex;
@@ -43,6 +60,7 @@ h1 {
     width: 200px;
 }
 
+
 .first {
     background-image: url('assets/Ancients/Azathoth.png');
 }
@@ -57,4 +75,78 @@ h1 {
 
 .forth {
     background-image: url('assets/Ancients/ShubNiggurath.png');
+}
+
+.button {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    color: #a31a10;
+    display: none;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+}
+
+.left-side {
+    max-width: 880px;
+}
+
+.right-side {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    min-width: 30%;
+}
+
+.card-shirt {
+    cursor: pointer;
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+    margin-top: 20px;
+    background-image: url('assets/mythicCardBackground.png');
+}
+
+.showCard {
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+    border: 2px #c01b08 solid;
+    margin-top: 20px;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stage-container {
+    margin-top: 15px;
+}
+
+.stage-text {
+    font-size: 20px;
+}
+
+.dots-container {
+    margin-top: 15px;
+}
+
+.green {
+    color: green;
+}
+
+.brown {
+    color: brown;
+}
+
+.blue {
+    color: blue;
 }

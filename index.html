@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link type="Image/x-icon" href="assets/img/favicon.ico" rel="icon">
 </head>
+
 <body>
     <!--сюда бы надпись добавить из разряда Eldritch Horror, но уже потом, когда по месту разберёмся-->
     <!--можно ещё вынести сюда сложность через список и получится, что название с левого края, а выбор сложности с правого-->
@@ -18,19 +20,59 @@
     </header>
     <!--сделать всё через флексы-->
     <main>
-        <div class="container">
-            <ul class="level">
-                <li class="choose">Очень легкий</li>
-                <li class="choose">Легкий</li>
-                <li class="choose">Средний</li>
-                <li class="choose">Высокий</li>
-                <li class="choose">Очень высокий</li>
-            </ul>
-            <div class="ancuents">
-                <div class="an-card first"></div>
-                <div class="an-card second"></div>
-                <div class="an-card third"></div>
-                <div class="an-card forth"></div>
+        <div class="container main-container">
+            <div class="left-side">
+                <h2>Выбери уровень:</h2>
+                <ul class="level">
+                    <li class="choose">Очень легкий</li>
+                    <li class="choose">Легкий</li>
+                    <li class="choose">Средний</li>
+                    <li class="choose">Высокий</li>
+                    <li class="choose">Очень высокий</li>
+                </ul>
+                <div class="ancuents">
+                    <div class="an-card first"></div>
+                    <div class="an-card second"></div>
+                    <div class="an-card third"></div>
+                    <div class="an-card forth"></div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="button">
+                    Замешать колоду
+                </div>
+                <div class="scheme">
+                    <div class="stage-container">
+                        <span class="stage-text">Первая стадия</span>
+                        <div class="dots-container">
+                            <div class="dot green">1</div>
+                            <div class="dot brown">1</div>
+                            <div class="dot blue">1</div>
+                        </div>
+                    </div>
+                    <div class="stage-container">
+                        <span class="stage-text">Вторая стадия</span>
+                        <div class="dots-container">
+                            <div class="dot green">3</div>
+                            <div class="dot brown">2</div>
+                            <div class="dot blue">1</div>
+                        </div>
+                    </div>
+                    <div class="stage-container">
+                        <span class="stage-text">Третья стадия</span>
+                        <div class="dots-container">
+                            <div class="dot green">2</div>
+                            <div class="dot brown">4</div>
+                            <div class="dot blue">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-shirt">
+
+                </div>
+                <div class="showCard">
+
+                </div>
             </div>
         </div>
 
@@ -44,4 +86,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
