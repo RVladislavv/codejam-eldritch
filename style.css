@@ -83,6 +83,9 @@ h2 {
     top: 20px;
     font-size: 30px;
     color: #a31a10;
+}
+
+.none {
     display: none;
 }
 
@@ -105,13 +108,17 @@ h2 {
     min-width: 30%;
 }
 
+.scheme {
+    display: none;
+}
+
 .card-shirt {
     cursor: pointer;
     background-size: cover;
     height: 190px;
     width: 130px;
     margin-top: 20px;
-    background-image: url('assets/mythicCardBackground.png');
+    background-image: url('assets/img/mythicCardBackground.png');
 }
 
 .showCard {
@@ -150,3 +157,13 @@ h2 {
 .blue {
     color: blue;
 }
+
+.border {
+    border: 4px #c01b08 solid;
+}
+
+.color {
+    color: #c01b08;
+}
+
+
